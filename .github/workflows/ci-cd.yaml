@@ -24,8 +24,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
       
-      # - name: Run Typescript Type Check
-      #   run: npm run type-check
+      - name: Run Typescript Type Check
+        run: npm run type-check
 
       - name: Run Lint
         run: npm run lint
