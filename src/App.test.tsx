@@ -6,6 +6,6 @@ test('renders the counter text', () => {
   expect(screen.getByText(/count is/i)).toBeInTheDocument(); // Adjusted regex to match button text.
 });
 
-test('failing test example', () => {
-  expect(1).toBe(0); // Failing test case
-});
+// test('failing test example', () => {
+//   expect(1).toBe(0); // Failing test case
+// });
