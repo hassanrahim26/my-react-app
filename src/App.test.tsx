@@ -7,5 +7,5 @@ test('renders the counter text', () => {
 });
 
 test('failing test example', () => {
-  expect(1).toBe(2); // This test will fail
+  expect(1).toBe(2); // Failing test case
 });
